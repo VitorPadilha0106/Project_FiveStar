@@ -1,0 +1,142 @@
+body{
+
+    background-image: url(../imagens/background-login.jpg);
+    color: white;
+
+}
+
+main{
+
+    display: grid;
+    grid-template-columns: repeat(14, 100px);
+    grid-template-rows: repeat(10, 50px);
+
+}
+
+main div#black-box{
+
+    width: 500px;
+    height: 570px;
+    background-color: black;
+    opacity: 70%;
+    grid-column: 5/14;
+    grid-row: 1/10;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+
+main div#info-box{
+
+    z-index: 1;
+    grid-column: 6/14;
+    grid-row: 3/10;
+    width: 450px;
+    height: 500px;
+    margin-top: 30px;
+
+}
+
+main div#info-box h1{
+
+    padding: 30px;
+    margin: 50px 0px 80px 130px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+
+}
+
+main div#info-box input#email-user{
+
+    margin-left: 50px;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 50px;
+    background-color: #333;
+    border: none;
+    text-align: center;
+    color: white;
+
+}
+
+main div#info-box input#password-user{
+
+    margin-left: 50px;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 50px;
+    background-color: #333;
+    border: none;
+    text-align: center;
+    color: white;
+
+}
+
+main div#info-box input#email-user, input#password-user:focus{
+
+    outline: none;
+
+}
+
+main div#info-box button{
+
+    background-color: #0343A3;
+    color: white;
+    border: none;
+    width: 300px;
+    height: 25px;
+    margin: 40px 0 20px 50px;
+    cursor: pointer;
+    transition: all 0.08s ease;
+
+}
+
+main div#info-box button:active{
+
+    transform: translateY(1px);
+
+}
+
+main div#info-box span#space_between{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main div#info-box span#space_between div#input-check{
+
+    margin-left: 50px;
+
+}
+
+main div#info-box span#space_between div#input-check label{
+
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+
+}
+
+main div#info-box span#space_between a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    margin-right: 100px;
+    transition:0.5s ease;
+
+}
+
+main div#info-box span#space_between a:hover{
+
+    text-decoration: underline;
+
+}

@@ -1,0 +1,25 @@
+header div.navBar{
+
+    background-color: #383838;
+    color: white;
+    
+
+}
+
+header div.navBar span.seach img.lupa{
+
+    filter: invert(100%) brightness(100%);
+
+}
+
+header div.navBar  img.notification{
+
+    filter: invert(100%) brightness(100%);
+
+}
+
+header div.navBar span.user img.user-Photo{
+
+    filter: invert(100%) brightness(100%);
+
+}
