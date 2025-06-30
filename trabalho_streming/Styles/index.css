@@ -1,6 +1,9 @@
 body{
 
     background-image: url(../imagens/background-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
 
 }
@@ -139,4 +142,84 @@ main div#info-box span#space_between a:hover{
 
     text-decoration: underline;
 
+}
+
+@media (min-width: 1008px) and (orientation:landscape){
+
+    main div#black-box{
+
+        width: 700px;
+        height: 800px;
+        grid-column: 6/14;
+        grid-row: 2/10;
+        margin-left: 180px;
+        margin-top: 95px;
+
+    }
+
+    main div#info-box{
+
+        z-index: 1;
+        grid-column: 8/14;
+        grid-row: 3/10;
+        width: 450px;
+        height: 500px;
+        margin-top: 200px;
+        margin-left: 20px;
+
+    }
+
+    main div#info-box h1{
+
+        font-size: 25px;
+        margin-left: 230px;
+        margin-bottom: 170px;
+
+    }
+
+    main div#info-box input#email-user{
+
+        width: 450px;
+        height: 35px;
+        margin-left: 80px;
+
+    }
+
+    main div#info-box input#password-user{
+
+        width: 450px;
+        height: 35px;
+        margin-left: 80px;
+
+    }
+   
+    main div#info-box button{
+
+        width: 450px;
+        height: 35px;
+        margin-left: 80px;
+
+    }
+
+    main div#info-box span#space_between div#input-check{
+
+        margin-left: 80px;
+
+    }
+
+    main div#info-box span#space_between div#input-check label{
+
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+    
+    }
+
+    main div#info-box span#space_between a{
+
+        margin-right: 0px;
+
+    }
+    
 }
