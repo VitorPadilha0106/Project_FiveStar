@@ -1,144 +1,120 @@
 body{
-
     background-image: url(../imagens/background-login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
-
 }
 
 main{
-
     display: grid;
-    grid-template-columns: repeat(14, 100px);
-    grid-template-rows: repeat(10, 50px);
-
+    grid-template-columns: repeat(14, 10vh);
+    grid-template-rows: repeat(10, 5vh);
 }
 
 main div#black-box{
-
-    width: 500px;
-    height: 570px;
+    width: 70vh;
+    height: 90vh;
     background-color: black;
     opacity: 70%;
     grid-column: 5/14;
     grid-row: 1/10;
-    margin-left: 50px;
-    margin-top: 90px;
-    border-radius: 30px 30px 0px 0px;
-    
+    margin-left: 40vh;
+    margin-top: 10vh;
+    border-radius: 3vh 3vh 0vh 0vh;
 }
 
 main div#info-box{
-
     z-index: 1;
-    grid-column: 6/14;
+    grid-column: 10/14;
     grid-row: 3/10;
-    width: 450px;
-    height: 500px;
-    margin-top: 30px;
-
+    width: 45vh;
+    height: 50vh;
+    margin-top: 8vh;
 }
 
 main div#info-box h1{
-
-    padding: 30px;
-    margin: 50px 0px 80px 130px;
-    font-size: 20px;
+    padding: 3vh;
+    margin: 20vh 0vh 8vh 15vh;
+    font-size: 3vh;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-
 }
 
 main div#info-box input#email-user{
-
-    margin-left: 50px;
-    width: 300px;
-    height: 25px;
-    margin-bottom: 50px;
+    margin-left: 4vh;
+    width: 40vh;
+    height: 3vh;
+    margin-bottom: 5vh;
+    font-size: 1.7vh;
     background-color: #333;
     border: none;
     text-align: center;
     color: white;
-
 }
 
 main div#info-box input#password-user{
-
-    margin-left: 50px;
-    width: 300px;
-    height: 25px;
-    margin-bottom: 50px;
+    margin-left: 4vh;
+    width: 40vh;
+    height: 3vh;
+    margin-bottom: 5vh;
+    font-size: 1.7vh;
     background-color: #333;
     border: none;
     text-align: center;
     color: white;
-
 }
 
 main div#info-box input#email-user, input#password-user:focus{
-
     outline: none;
-
 }
 
 main div#info-box button{
 
     color: white;
     border: none;
-    width: 300px;
-    height: 25px;
-    margin: 40px 0 20px 50px;
+    width: 40vh;
+    height: 3vh;
+    font-size: 1.7vh;
+    margin: 4vh 0 2vh 4vh;
     cursor: pointer;
     transition: all 0.08s ease;
-
 }
 
 main div#info-box button:active{
-
-    transform: translateY(1px);
-
+    transform: translateY(0.1vh);
 }
 
 main div#info-box span#space_between{
-
     display: flex;
     justify-content: space-between;
-
 }
 
 main div#info-box span#space_between div#input-check{
 
-    margin-left: 50px;
-
+    margin-left: 5vh;
 }
 
 main div#info-box span#space_between div#input-check label{
-
-    font-size: 14px;
+    font-size: 1.6vh;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-
 }
 
 main div#info-box span#space_between a{
-
     text-decoration: none;
     color: white;
-    font-size: 13px;
+    font-size: 1.6vh;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    margin-right: 100px;
+    margin-right: 1.2vh;
     transition:0.5s ease;
-
 }
 
 main div#info-box span#space_between a:hover{
-
     text-decoration: underline;
 
 }
