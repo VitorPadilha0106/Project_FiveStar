@@ -137,7 +137,7 @@ header nav.navBar span.user:hover{
 
 }
 
-header nav.navBar span.user img.photo-User{
+header nav.navBar span.user a img.photo-User{
 
     filter: brightness(0) invert(1);
     width: 20px;
