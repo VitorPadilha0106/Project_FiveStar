@@ -93,6 +93,45 @@ main div.category div.container button.button-right:active{
 
 }
 
-@media screen {
+@media only screen and (min-width: 640px) and (orientation: landscape){
+
+    main div.category div.container{
+
+
+        gap: 25px;
+        margin-left: 60px;
+
+    }
+
     
+    main div.category div.container button.button-left{
+
+        width: 35px;
+        height: 35px;
+        margin: 40px 5px 0 0;
+
+    }
+
+    main div.category div.container div.box{
+
+        width: 140px;
+        height: 100px;
+
+    }
+
+    main div.category div.container div.box img.catalog{
+
+        width: 140px;
+        height: 100px;
+
+    }
+
+    main div.category div.container button.button-right{
+
+        width: 35px;
+        height: 35px;
+        margin: 40px 5px 0 0;
+
+    }
+
 }

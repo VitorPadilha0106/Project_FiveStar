@@ -72,17 +72,15 @@ main div#info-box input#email-user, input#password-user:focus{
 }
 
 main div#info-box button{
-<<<<<<< HEAD
+
     background-color: #0343A3;
     width: 300px;
     height: 20px;
     margin-left: 80px;
     margin-bottom: 30px;
     font-size: 12px;
-=======
 
     color: white;
->>>>>>> 3822163f90556a3b2015089d0e1b168831d27942
     border: none;
     text-align: center;
     color: white;
@@ -131,18 +129,7 @@ main div#info-box span#space_between a:hover{
     
     main div#black-box{
 
-<<<<<<< HEAD
         width: 10px;
-
-    }
-
-=======
-        width: 700px;
-        height: 850px;
-        grid-column: 6/14;
-        grid-row: 2/10;
-        margin-left: 180px;
-        margin-top: 95px;
 
     }
 
@@ -217,6 +204,8 @@ main div#info-box span#space_between a:hover{
         margin-right: 140px;
 
     }
-    
->>>>>>> 3822163f90556a3b2015089d0e1b168831d27942
+
+
 }
+
+  
