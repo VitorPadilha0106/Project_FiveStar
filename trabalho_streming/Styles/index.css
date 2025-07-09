@@ -8,46 +8,46 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: repeat(14, 10vh);
-    grid-template-rows: repeat(10, 5vh);
+    grid-template-columns: repeat(14, 100px);
+    grid-template-rows: repeat(10, 50px);
 }
 
 main div#black-box{
-    width: 70vh;
-    height: 90vh;
+    width: 500px;
+    height: 532px;
     background-color: black;
     opacity: 70%;
-    grid-column: 5/14;
+    grid-column: 2/14;
     grid-row: 1/10;
-    margin-left: 40vh;
-    margin-top: 10vh;
-    border-radius: 3vh 3vh 0vh 0vh;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 30px 30px 0px 0px;
 }
 
 main div#info-box{
     z-index: 1;
-    grid-column: 10/14;
+    grid-column: 6/14;
     grid-row: 3/10;
-    width: 45vh;
-    height: 50vh;
-    margin-top: 8vh;
+    width: 450px;
+    height: 500px;
+    margin-top: 30px;
 }
 
 main div#info-box h1{
-    padding: 3vh;
-    margin: 20vh 0vh 8vh 15vh;
-    font-size: 3vh;
+    padding: 30px;
+    margin: 100px 0px 60px 170px;
+    font-size: 18px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
 
 main div#info-box input#email-user{
-    margin-left: 4vh;
-    width: 40vh;
-    height: 3vh;
-    margin-bottom: 5vh;
-    font-size: 1.7vh;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-size: 12px;
     background-color: #333;
     border: none;
     text-align: center;
@@ -55,16 +55,17 @@ main div#info-box input#email-user{
 }
 
 main div#info-box input#password-user{
-    margin-left: 4vh;
-    width: 40vh;
-    height: 3vh;
-    margin-bottom: 5vh;
-    font-size: 1.7vh;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-size: 12px;
     background-color: #333;
     border: none;
     text-align: center;
     color: white;
 }
+
 
 main div#info-box input#email-user, input#password-user:focus{
     outline: none;
@@ -72,12 +73,14 @@ main div#info-box input#email-user, input#password-user:focus{
 
 main div#info-box button{
     background-color: #0343A3;
-    color: white;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-size: 12px;
     border: none;
-    width: 40vh;
-    height: 3vh;
-    font-size: 1.7vh;
-    margin: 4vh 0 2vh 4vh;
+    text-align: center;
+    color: white;
     cursor: pointer;
     transition: all 0.08s ease;
 }
@@ -93,11 +96,11 @@ main div#info-box span#space_between{
 
 main div#info-box span#space_between div#input-check{
 
-    margin-left: 5vh;
+    margin-left: 80px;
 }
 
 main div#info-box span#space_between div#input-check label{
-    font-size: 1.6vh;
+    font-size: 12px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -106,11 +109,11 @@ main div#info-box span#space_between div#input-check label{
 main div#info-box span#space_between a{
     text-decoration: none;
     color: white;
-    font-size: 1.6vh;
+    font-size: 12px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    margin-right: 1.2vh;
+    margin-right: 70px;
     transition:0.5s ease;
 }
 
@@ -119,82 +122,12 @@ main div#info-box span#space_between a:hover{
 
 }
 
-@media (min-width: 1008px) and (orientation:landscape){
-
+@media only screen and (max-width: 640px) and (orientation: landscape){
+    
     main div#black-box{
 
-        width: 700px;
-        height: 800px;
-        grid-column: 6/14;
-        grid-row: 2/10;
-        margin-left: 180px;
-        margin-top: 95px;
+        width: 10px;
 
     }
 
-    main div#info-box{
-
-        z-index: 1;
-        grid-column: 8/14;
-        grid-row: 3/10;
-        width: 450px;
-        height: 500px;
-        margin-top: 200px;
-        margin-left: 20px;
-
-    }
-
-    main div#info-box h1{
-
-        font-size: 25px;
-        margin-left: 230px;
-        margin-bottom: 170px;
-
-    }
-
-    main div#info-box input#email-user{
-
-        width: 450px;
-        height: 35px;
-        margin-left: 80px;
-
-    }
-
-    main div#info-box input#password-user{
-
-        width: 450px;
-        height: 35px;
-        margin-left: 80px;
-
-    }
-   
-    main div#info-box button{
-
-        width: 450px;
-        height: 35px;
-        margin-left: 80px;
-
-    }
-
-    main div#info-box span#space_between div#input-check{
-
-        margin-left: 80px;
-
-    }
-
-    main div#info-box span#space_between div#input-check label{
-
-        font-size: 14px;
-        font-weight: 300;
-        font-family: "Montserrat", sans-serif;
-        font-style: normal;
-    
-    }
-
-    main div#info-box span#space_between a{
-
-        margin-right: 0px;
-
-    }
-    
 }
