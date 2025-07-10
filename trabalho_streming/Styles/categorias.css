@@ -16,11 +16,33 @@ main div.category h1.type-category{
 
 }
 
-@media only screen and (min-width: 640px) and (orientation: landscape) {
+
+@media only screen and (min-width:1260px) and (max-width:1366px) and (orientation: landscape){
 
     main div.category{
 
-        margin: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    } 
+
+    main div.category h1.type-category{
+
+        font-size: 15px;
+        margin-left: 640px;
+
+    }
+
+}
+
+@media only screen and (min-width:1367px) and (max-width:1440px) and (orientation: landscape){
+
+    main div.category{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
     } 
 
@@ -28,6 +50,27 @@ main div.category h1.type-category{
 
         font-size: 22px;
         margin-left: 640px;
+
+    }
+
+}
+
+@media only screen and (min-width:1441px) and (max-width:1920px) and (orientation: landscape){
+
+    main div.category{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 150px;
+
+    } 
+
+    main div.category h1.type-category{
+
+        font-size: 22px;
+        margin-left: 760px;
+
 
     }
 
