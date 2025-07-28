@@ -17,7 +17,7 @@ main div.category h1.type-category{
 }
 
 
-@media only screen and (min-width:1260px) and (max-width:1366px) and (orientation: landscape){
+/* @media only screen and (min-width:1260px) and (max-width:1366px) and (orientation: landscape){
 
     main div.category{
 
@@ -53,7 +53,7 @@ main div.category h1.type-category{
 
     }
 
-}
+} */
 
 @media only screen and (min-width:1441px) and (max-width:1920px) and (orientation: landscape){
 

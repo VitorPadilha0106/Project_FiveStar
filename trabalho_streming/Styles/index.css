@@ -125,7 +125,7 @@ main div#info-box span#space_between a:hover{
 
 }
 
-@media only screen and (min-width:1260px) and (max-width:1366px) and (orientation: landscape){
+/* @media only screen and (min-width:1260px) and (max-width:1366px) and (orientation: landscape){
     
     main div#black-box{
 
@@ -299,7 +299,7 @@ main div#info-box span#space_between a:hover{
     }
 
 
-}
+} */
 
 @media only screen and (min-width:1441px) and (max-width:1920px) and (orientation: landscape){
 
